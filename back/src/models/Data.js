@@ -8,7 +8,7 @@ module.exports = class Data {
         const id = uuid.v4();
         data.createdAt = new Date().toISOString();
         await redisClient.set(`data:${id}`, JSON.stringify(data));
-        return { id, createdAt, ...data };
+        return { id, ...data };
     }
 
     static async getList() {
