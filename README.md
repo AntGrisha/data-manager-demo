@@ -1,5 +1,9 @@
 # Data Manager App
 
+## Live demo
+
+Live demo is available at http://134.209.72.218/
+
 ## General info
 
 This is Data Manager. <br>
