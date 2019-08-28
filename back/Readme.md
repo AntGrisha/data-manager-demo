@@ -10,3 +10,5 @@ Configure your environment:
 
 1. npm i
 2. npm start
+
+*Note* - dist folder was commited for test purposes (easier to pull once and start on remote machine)
