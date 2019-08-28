@@ -13,7 +13,6 @@ async function createApp() {
     app.use(cors());
     app.use(express.static('public'));
 
-    // TODO: make this return app
     app.get('/', (req, res) => res.sendFile(path.resolve('index.html')));
 
     app.use(bodyParser.json());
