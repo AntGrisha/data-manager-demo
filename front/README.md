@@ -9,7 +9,7 @@ Install   [Node.js v10.16.x](https://nodejs.org/) or higher (10.x)
 1. npm install
 2. npm run dev
 
-*Note* - default api base path equals http://localhost:8000
+*Note* - default api base path equals http://134.209.72.218/api, you can change it here in `src/config/index.js`
 
 ## Building
 
